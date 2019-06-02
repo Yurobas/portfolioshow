@@ -5392,52 +5392,50 @@ button {
   .logo a {
     color: inherit; }
 
-.form__label {
-  position: relative; }
-  .form__label + .form__label {
-    margin-top: 30px; }
-
-.form__input {
-  position: relative;
-  width: 100%;
-  height: 70px;
-  padding: 25px 0 15px;
-  color: #F6F5F7;
-  font-family: 'Navigo', sans-serif;
-  border-bottom: 1px solid rgba(246, 245, 247, 0.4);
-  -webkit-transition: border-color 250ms;
-  transition: border-color 250ms;
-  z-index: 1; }
-  .form__input:focus + .form__placeholder, .form__input.value + .form__placeholder {
-    font-size: 15px;
-    font-weight: 200;
-    line-height: 1.6;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px); }
-  .form__input.error {
-    border-bottom-color: #FF6666; }
-    .form__input.error ~ .form__placeholder {
-      color: #FF6666; }
-
-.form__placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: rgba(246, 245, 247, 0.6);
-  will-change: transform;
-  -webkit-transform: translateY(25px);
-          transform: translateY(25px);
-  -webkit-transition: font-size 250ms, -webkit-transform 250ms;
-  transition: font-size 250ms, -webkit-transform 250ms;
-  transition: transform 250ms, font-size 250ms;
-  transition: transform 250ms, font-size 250ms, -webkit-transform 250ms;
-  z-index: 0; }
-
-.form__hidden {
-  visibility: hidden; }
-
-.form__submit {
-  margin-top: 50px; }
+.form {
+  width: 100%; }
+  .form__label {
+    position: relative; }
+    .form__label + .form__label {
+      margin-top: 30px; }
+  .form__input {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    padding: 25px 0 15px;
+    color: #F6F5F7;
+    font-family: 'Navigo', sans-serif;
+    border-bottom: 1px solid rgba(246, 245, 247, 0.4);
+    -webkit-transition: border-color 250ms;
+    transition: border-color 250ms;
+    z-index: 1; }
+    .form__input:focus + .form__placeholder, .form__input.value + .form__placeholder {
+      font-size: 15px;
+      font-weight: 200;
+      line-height: 1.6;
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px); }
+    .form__input.error {
+      border-bottom-color: #FF6666; }
+      .form__input.error ~ .form__placeholder {
+        color: #FF6666; }
+  .form__placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(246, 245, 247, 0.6);
+    will-change: transform;
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+    -webkit-transition: font-size 250ms, -webkit-transform 250ms;
+    transition: font-size 250ms, -webkit-transform 250ms;
+    transition: transform 250ms, font-size 250ms;
+    transition: transform 250ms, font-size 250ms, -webkit-transform 250ms;
+    z-index: 0; }
+  .form__hidden {
+    visibility: hidden; }
+  .form__submit {
+    margin-top: 50px; }
 
 .show-print {
   display: -webkit-box;
