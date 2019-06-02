@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./common.css" rel="stylesheet">
+    <title>Структурная оптимизация сайта. Часть I</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__top">
+            <header class="header header--article">
+              <div class="header__top">
+                <div class="container">
+                  <div class="row justify-content-between">
+                    <div class="header__topBox mx-1 px-1">
+                      <div class="header__items">
+                        <div class="header__item header__item--logo">
+                              <div class="logo"><a href="home.html">MainBit</a></div>
+                        </div>
+                        <div class="header__item">
+                              <nav class="nav">
+                                <ul class="nav__list">
+                                  <li class="nav__item"><a class="nav__link " href="">Студия</a></li>
+                                  <li class="nav__item"><a class="nav__link " href="">Услуги</a></li>
+                                  <li class="nav__item"><a class="nav__link " href="portfolio.html">Портфолио</a></li>
+                                  <li class="nav__item"><a class="nav__link " href="blog.html">Блог</a></li>
+                                  <li class="nav__item"><a class="nav__link " href="contacts.html">Контакты</a></li>
+                                </ul>
+                              </nav>
+                        </div>
+                      </div>
+                      <div class="header__items header__items--aside">
+                        <div class="header__item"><a class="header__phone" href="tel:+79999999999">+7 999 999-99-99</a></div>
+                        <div class="header__item"><span class="header__request js-feedback-trigger">оставить заявку</span></div><a class="header__close js-feedback-trigger"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M2 2L22 22" stroke-width="5"/>
+  <path d="M22 2L2 22" stroke-width="5"/>
+</svg>
+</a>
+                      </div>
+                      <div class="header__border"></div>
+                      <div class="header__bg"></div>
+                    </div>
+                    <div class="header__feedback js-feedback">
+                      <div class="container">
+                        <div class="row justify-content-center">
+                          <div class="feedback px-2">
+                            <div class="feedback__title title js-feedback-title">Предварительная заявка</div>
+                            <p class="feedback__description text-paragraph js-feedback-description">Отправьте свои контакты, и мы свяжемся с вами в ближайшее время</p>
+                            <div class="feedback__form row js-feedback-form">
+                              <form class="form col-12">
+                                <div class="form__container">
+                                  <div class="form__label">
+                                    <input class="form__input js-name text-paragraph" name="name"><span class="form__placeholder text-paragraph" data-name="Ваше имя" data-error="Необходимо более 1 символа">Ваше имя</span>
+                                  </div>
+                                  <div class="form__label">
+                                    <input class="form__input js-email text-paragraph" name="email"><span class="form__placeholder text-paragraph" data-name="E-mail" data-error="Некорректный e-mail">E-mail</span>
+                                  </div>
+                                  <div class="form__submit">
+                                    <button class="button button--light button--short" type="submit">Отправить</button>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                            <button class="button button--light button--short js-feedback-trigger" style="visibility: hidden;">Отлично!</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header__bottom">
+                <div class="header__bottom-header mx-1"></div>
+                <div class="container">
+                  <div class="header__bottomBox">
+                    <div class="row flex-column">
+                      <div class="header__breadcrumbs mx-1 px-1">
+                            <ul class="breadcrumbs">
+                              <li class="breadcrumbs__item"><a class="breadcrumbs__link text-note" href="home.html">Главная</a></li>
+                              <li class="breadcrumbs__item"><a class="breadcrumbs__link text-note" href="">Структурная оптимизация сайта</a></li>
+                            </ul>
+                      </div>
+                      <div class="header__title">
+                        <h1 class="title px-2">Структурная оптимизация сайта.<br> Часть I</h1>
+                      </div>
+                      <p class="header__description text-lead col-22 mx-1 px-1">Оптимизация структуры сайта — это тот фундамент, на котором строится продвижение сайта. Состоит она из нескольких основных блоков.</p>
+                      <div class="header__article text-note px-2">
+                        <div class="header__author">
+                          <div class="header__author-pic"><img class="header__author-img" src="./images/author-01.jpg"></div>
+                          <div class="header__author-name">Иван Иванович</div>
+                        </div>
+                        <div class="header__date">26 октября, 2017</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+        <section class="article-page">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="article-page__container col-14">
+                <div class="formated">
+                  <h3>Сбор тематических запросов (семантического ядра)</h3>
+                  <p>На старте необходимо собрать максимально широкий список всех ключевых слов (запросов), имеющих отношение к тематике сайта. На этом этапе в список попадет много «мусора», но это не страшно — в дальнейшем он отфильтруется. Хуже, если вы пропустите нужные запросы и недополучите целевой трафик. Именно поэтому первоначальное семантическое ядро нужно составлять с максимальным охватом.</p>
+                  <h4>Анализ и чистка семантического ядра</h4>
+                  <p>Собрав на первоначальном этапе десятки и сотни тысяч (а может и миллионы) запросов,  вы неизбежно столкнетесь с проблемой анализа и фильтрации полученного списка. Часть этой работы делается в автоматическом, а часть — в полуавтоматическом и ручном режиме.</p>
+                  <h4>Кластеризация запросов</h4>
+                  <p>Полученный итоговый список необходимо разбить на группы (кластеризовать), чтобы в дальнейшем одну страницу сайта можно было оптимизировать под одну группу запросов.</p>
+                  <h4>Проектирование архитектуры сайта</h4>
+                  <p>Группы запросов нужно грамотно распределить по страницам сайта. После этого мы получим готовую структуру, на основе которой можно будет начать создание сайта (или приведение имеющегося сайта в соответствие с полученной структурой).</p>
+                  <h4>Оптимизация отдельных блоков и структуры сайта</h4>
+                  <p>После того, как основная работа выполнена, остается куча небольших задач по улучшению структуры, перелинковки и юзабилити отдельных блоков. Такая работа должна выполняться в постоянном режиме на основе технических средств, новых разработок, анализа сайта и поведения пользователей.</p>
+                  <h2>Когда этим всем заниматься?</h2>
+                  <p>Структурную оптимизацию желательно проводить в самом начале проекта по продвижению. Если этого не сделать, в будущем можно столкнуться с рядом сложных проблем.</p>
+                  <p>Например, при оптимизации сайта возникнут задачи по переносу страниц (изменении их URL-адреса). В таком случае можно потерять часть «технических» преимуществ (вес и возраст страниц), столкнуться с техническим проблемами (битые ссылки, неработающие или ненастроенные редиректы) или проблемой медленной переиндексации сайта:</p>
+                  <figure><img src="./images/article-01.jpg" alt="">
+                    <figcaption>Andy Thelander, Creative Director of Active Theory where he talks about winning Developer Site of the Year for Paper Planes</figcaption>
+                  </figure>
+                  <p>Другой случай: из-за непроведённой структурной оптимизации можно проглядеть часть целевых запросов, столкнуться с невозможностью создания нужного раздела или неоптимально опубликовать нужные материалы (из-за чего они, например, недополучат внутренний вес и будут хуже ранжироваться).</p>
+                  <ol>
+                    <li>Сбор требований, формирование технического задания. Итог выполнения этапа работ: бриф или техническое задание на создание сайта.</li>
+                    <li>Проектирование сайта. Итог: структура сайта в понятном виде.</li>
+                    <ol>
+                      <li>Рекомендуется сделать и отображать на странице дублирующую статическую пагинацию, по которой поисковые роботы точно смогут проиндексировать все страницы категории (без использования JavaScript). Пагинация должна быть выполнена с помощью rel="prev" или rel="next".</li>
+                      <li>Каждая порция контента должна иметь свой URL, который нужно показывать даже при загрузке контента с помощью JavaScript. Это улучшит также и юзабилити (можно будет дать ссылку, например, на третью страницу категории).</li>
+                    </ol>
+                    <li>Создание прототипов ключевых страниц. Итог: утвержденные прототипы страниц.</li>
+                    <li>Разработка и утверждение дизайна ключевых страниц. Итог: утвержденные дизайн-макеты.</li>
+                    <li>Программирование, верстка, тестирование. Итог: полностью рабочий и соответствующий дизайн-макетам сайт.</li>
+                  </ol>
+                  <p>Начинать со структурной оптимизации следует даже тогда, когда нужно продвигать уже давно существующий сайт. Это важно, так как переходить к дальнейшим действиям по поисковому продвижению и настройкам рекламных кампаний можно только тогда, когда нужная структура сайта будет сформирована и все страницы получат окончательные URL-адреса.</p>
+                  <h3>Cтандартный процесс создания сайта</h3>
+                  <p>Если сайт создается с прицелом на дальнейшее поисковое продвижение, то следует добавить в пункт «Проектирование сайта» подпункт про структурную оптимизацию, в пункт про программирование — техническую оптимизацию, а в пункт про подготовку контента — текстовую оптимизацию, о которой мы поговорим чуть позже.</p>
+                  <blockquote>В идеале СЕО-специалист должен также участвовать в сборе требований к сайту и разработке дизайна (в который нужно заложить потенциал для дальнейшего поискового продвижения).</blockquote>
+                  <p>Таким образом при создании сайта под поисковое продвижение СЕО-шник должен принимать участие во всех этапах разработки. Таким образом можно предотвратить ряд проблем, возникающих когда СЕО-специалиста зовут продвигать уже работающую площадку.</p>
+                  <p>Начинать со структурной оптимизации следует даже тогда, когда нужно продвигать уже давно существующий сайт. Это важно, так как переходить к дальнейшим действиям по поисковому продвижению и настройкам рекламных кампаний можно только тогда, когда нужная структура сайта будет сформирована и все страницы получат окончательные URL-адреса.</p>
+                  <h2>Mobile-first индексы</h2>
+                  <p>Пока оптимизированные сайты получают преимущество только в мобильном поиске. Но это преимущество будет только нарастать. Вот что говорят об этом инженеры компании Google: «Мы будем увеличивать значение показателя mobile-friendly в нашем рейтинге результатов. Эти изменения повлияют на мобильный поиск на всех языках мира и окажут значительное влияние на результаты поиска».</p>
+                  <ul>
+                    <li>Пользователи получают самую важную информацию в первую очередь (дополнительные сведения загружаются только по запросу — так экономится мобильный трафик, а страница получается более легковесной).</li>
+                    <li>Страницы сайта быстро грузятся даже при медленном интернете.</li>
+                    <ul>
+                      <li>Заголовок Н1 единожды должен присутствовать на каждой странице сайта. Повторное использование тегов заголовка Н1 на странице недопустимо.</li>
+                      <li>Заголовок должен «перекликаться» с мета-тегом title, допускается частичное или полное дублирование.</li>
+                    </ul>
+                    <li>Пользователи получают удобный интерфейс и навигацию на маленьких экранах.</li>
+                    <li>Повышаются позиции сайта в мобильной выдаче и конверсия мобильного трафика в целом.</li>
+                  </ul>
+                  <p>Как только поисковики введут mobile-first индексы, в первую очередь при ранжировании будет учитываться мобильная версия сайта. То есть сейчас поисковики ранжируют ранжирует мобильные сайты на основании «десктопных» сигналов (лишь дополнительно повышая в выдаче те сайты, которые оптимизированы для мобильных устройств). Но после запуска mobile-first индекса эта ситуация развернется на 180 градусов: поисковые системы будут ранжировать мобильные и десктопные сайты в первую очередь на основании сигналов, которые поступают с мобильной версии.</p>
+                  <h4>Тэги</h4><a class="tag" href=""><span>Поисковое продвижение</span></a><a class="tag" href=""><span>Факторы ранжирования</span></a><a class="tag" href=""><span>Поисковые алгоритмы</span></a><a class="tag" href=""><span>Структурная оптимизация</span></a>
+                </div>
+                    <div class="repost ya-share2" data-services="facebook,twitter,vkontakte" data-counter=""></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="wrapper__bottom">
+        <footer class="footer">
+          <div class="container">
+            <ul class="footer__content row justify-content-between">
+              <li class="footerColumn col ml-2">
+                <div class="footerColumn__header">
+                      <div class="logo logo--light"><a href="home.html">MainBit</a></div>
+                </div>
+                <ul class="footerColumn__info"> 
+                  <li class="footerColumn__infoItem">
+                     Сайты, приложения, фирменные стили. <br>
+                    Медиа-кампании в интернете
+                  </li>
+                </ul>
+              </li>
+              <li class="footerColumn col">
+                <div class="footerColumn__header"><a href="tel:+79999999999">+7 999 999-99-99</a></div>
+                <ul class="footerColumn__info"> 
+                  <li class="footerColumn__infoItem"><a class="link" href="mailto:info@mail.ru">info@mail.ru</a></li>
+                  <li class="footerColumn__infoItem">Москва, ул. Береговой проезд, д. 2, стр. 3</li>
+                </ul>
+              </li>
+              <li class="footerColumn col mr-2">
+                <div class="footerColumn__header">Мы в соц. сетях</div>
+                <ul class="footerColumn__info">
+                  <li class="footerColumn__infoItem">
+<ul class="socials">
+  <li class="socials__item"><a class="link" href="">Facebook</a></li>
+  <li class="socials__item"><a class="link" href="">Twitter</a></li>
+  <li class="socials__item"><a class="link" href="">Vkontakte</a></li>
+</ul>
+                  </li>
+                  <li class="footerColumn__infoItem"><a class="link" href="">English Version</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="footer__copyright mx-2"><span>&copy; 2010-2018 Web Студия</span></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+        <div class="show-print" id="show-print">
+          <div class="show-print__container"><img class="show-print__img" src="" style="opacity: 0;"></div>
+        </div>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="//yastatic.net/share2/share.js"></script>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./common.css" rel="stylesheet">
+    <title>Контакты</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=a8f0f353-4116-4d2a-a967-dc30993cf835&amp;lang=ru_RU" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__top">
+            <header class="header header--contacts">
+              <div class="header__top">
+                <div class="container">
+                  <div class="row justify-content-between">
+                    <div class="header__topBox mx-1 px-1">
+                      <div class="header__items">
+                        <div class="header__item header__item--logo">
+                              <div class="logo"><a href="home.html">MainBit</a></div>
+                        </div>
+                        <div class="header__item">
+                              <nav class="nav">
+                                <ul class="nav__list">
+                                  <li class="nav__item"><a class="nav__link " href="">Студия</a></li>
+                                  <li class="nav__item"><a class="nav__link " href="">Услуги</a></li>
+                                  <li class="nav__item"><a class="nav__link " href="portfolio.html">Портфолио</a></li>
+                                  <li class="nav__item"><a class="nav__link " href="blog.html">Блог</a></li>
+                                  <li class="nav__item"><a class="nav__link nav__link--active" href="contacts.html">Контакты</a></li>
+                                </ul>
+                              </nav>
+                        </div>
+                      </div>
+                      <div class="header__items header__items--aside">
+                        <div class="header__item"><a class="header__phone" href="tel:+79999999999">+7 999 999-99-99</a></div>
+                        <div class="header__item"><span class="header__request js-feedback-trigger">оставить заявку</span></div><a class="header__close js-feedback-trigger"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M2 2L22 22" stroke-width="5"/>
+  <path d="M22 2L2 22" stroke-width="5"/>
+</svg>
+</a>
+                      </div>
+                      <div class="header__border"></div>
+                      <div class="header__bg"></div>
+                    </div>
+                    <div class="header__feedback js-feedback">
+                      <div class="container">
+                        <div class="row justify-content-center">
+                          <div class="feedback px-2">
+                            <div class="feedback__title title js-feedback-title">Предварительная заявка</div>
+                            <p class="feedback__description text-paragraph js-feedback-description">Отправьте свои контакты, и мы свяжемся с вами в ближайшее время</p>
+                            <div class="feedback__form row js-feedback-form">
+                              <form class="form col-12">
+                                <div class="form__container">
+                                  <div class="form__label">
+                                    <input class="form__input js-name text-paragraph" name="name"><span class="form__placeholder text-paragraph" data-name="Ваше имя" data-error="Необходимо более 1 символа">Ваше имя</span>
+                                  </div>
+                                  <div class="form__label">
+                                    <input class="form__input js-email text-paragraph" name="email"><span class="form__placeholder text-paragraph" data-name="E-mail" data-error="Некорректный e-mail">E-mail</span>
+                                  </div>
+                                  <div class="form__submit">
+                                    <button class="button button--light button--short" type="submit">Отправить</button>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                            <button class="button button--light button--short js-feedback-trigger" style="visibility: hidden;">Отлично!</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header__bottom">
+                <div class="header__bottom-header mx-1"></div>
+                <div class="header__video">
+                  <video preload="auto" poster="./images/poster.jpg" autoplay="autoplay" loop="loop" muted>
+                    <source src="./images/background.mp4">Элемент video не поддерживается вашим браузером. 
+                  </video>
+                </div>
+                <div class="container">
+                  <div class="header__bottomBox">
+                    <div class="row flex-column">
+                      <div class="header__breadcrumbs mx-1 px-1">
+                            <ul class="breadcrumbs">
+                              <li class="breadcrumbs__item"><a class="breadcrumbs__link text-note" href="home.html">Главная</a></li>
+                              <li class="breadcrumbs__item"><a class="breadcrumbs__link text-note" href="">Контактная информация</a></li>
+                            </ul>
+                      </div>
+                      <div class="header__title">
+                        <h1 class="header__title-text mx-1 px-1">Контакты</h1>
+                        <div class="header__title-bg mx-1 px-1">Контакты</div>
+                      </div>
+                      <div class="header__contacts mx-1 px-1">
+                        <div class="header__contacts-top">
+                          <div class="header__contacts-item"><a class="text-lead link link--light" href="tel:+79999999999">+7 999 999-99-99</a></div>
+                          <div class="header__contacts-item"><a class="text-lead link" href="mailto:info@mail.ru">info@mail.ru</a></div>
+                        </div>
+                        <div class="header__contacts-bottom">
+                          <p class="header__contacts-address text-paragraph">Москва, Береговой проезд, д. 2, стр. 3., станция метро «Фили»</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+        <section class="contacts">
+          <div class="contacts__container container">
+            <div class="contacts__map mx-1" id="map"></div>
+          </div>
+        </section>
+      </div>
+      <div class="wrapper__bottom">
+        <footer class="footer">
+          <div class="container">
+            <ul class="footer__content row justify-content-between">
+              <li class="footerColumn col ml-2">
+                <div class="footerColumn__header">
+                      <div class="logo logo--light"><a href="home.html">MainBit</a></div>
+                </div>
+                <ul class="footerColumn__info"> 
+                  <li class="footerColumn__infoItem">
+                     Сайты, приложения, фирменные стили. <br>
+                    Медиа-кампании в интернете
+                  </li>
+                </ul>
+              </li>
+              <li class="footerColumn col">
+                <div class="footerColumn__header"><a href="tel:+79999999999">+7 999 999-99-99</a></div>
+                <ul class="footerColumn__info"> 
+                  <li class="footerColumn__infoItem"><a class="link" href="mailto:info@mail.ru">info@mail.ru</a></li>
+                  <li class="footerColumn__infoItem">Москва, ул. Береговой проезд, д. 2, стр. 3</li>
+                </ul>
+              </li>
+              <li class="footerColumn col mr-2">
+                <div class="footerColumn__header">Мы в соц. сетях</div>
+                <ul class="footerColumn__info">
+                  <li class="footerColumn__infoItem">
+<ul class="socials">
+  <li class="socials__item"><a class="link" href="">Facebook</a></li>
+  <li class="socials__item"><a class="link" href="">Twitter</a></li>
+  <li class="socials__item"><a class="link" href="">Vkontakte</a></li>
+</ul>
+                  </li>
+                  <li class="footerColumn__infoItem"><a class="link" href="">English Version</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="footer__copyright mx-2"><span>&copy; 2010-2018 Web Студия</span></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      ymaps.ready(init);
+      function init(){ 
+        // Создание карты
+        var place = [55.757648, 37.507358];
+        var myMap = new ymaps.Map("map", {
+          center: [55.755765, 37.507336],
+          zoom: 16,
+          controls: []
+        });
+      
+        var myGeoObject = new ymaps.Placemark(place, {
+          iconCaption: 'Береговой проезд, 2с3'
+        }, {
+          preset: 'islands#darkBlueCircleDotIcon'
+        });
+      
+        myMap.geoObjects.add(myGeoObject)
+      }      
+    </script>
+        <div class="show-print" id="show-print">
+          <div class="show-print__container"><img class="show-print__img" src="" style="opacity: 0;"></div>
+        </div>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="//yastatic.net/share2/share.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./common.css" rel="stylesheet">
+    <title>Кажется, вы попали не туда</title>
+  </head>
+  <body>
+    <div class="notFound">
+      <div class="notFound__wrapper">
+        <div class="header__video">
+          <video preload="auto" poster="./images/poster.jpg" autoplay="autoplay" loop="loop" muted>
+            <source src="./images/background.mp4">Элемент video не поддерживается вашим браузером.
+          </video>
+        </div>
+        <div class="notFound__container container">
+          <header class="notFound__header mx-1 mt-1 px-2">
+                <div class="logo logo--light"><a href="home.html">MainBit</a></div>
+          </header>
+          <main class="notFound__content">
+            <div class="row align-items-stretch">
+              <div class="notFound__block col-11 ml-1 mt-1 mb-1 pl-2">
+                <h1 class="notFound__title title title--mini">Кажется, вы попали не&nbsp;туда</h1>
+                <p class="notFound__description text-paragraph">
+                  Такой страницы больше нет или никогда не было. 
+                  Зато&nbsp;мы&nbsp;точно&nbsp;знаем, где вы можете
+                  <a href="portfolio.html">посмотреть наши работы</a> или&nbsp;<a href="mailto:info@mainbit.ru">написать нам письмо</a>.
+                </p>
+              </div>
+              <div class="notFound__image mt-1 mb-1">
+                <div class="notFound__image-text title title--big mx-1 px-2">404</div>
+                <div class="notFound__image-bg title title--big mx-1 px-2">404</div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+        <div class="show-print" id="show-print">
+          <div class="show-print__container"><img class="show-print__img" src="" style="opacity: 0;"></div>
+        </div>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="//yastatic.net/share2/share.js"></script>
+  </body>
+</html>
