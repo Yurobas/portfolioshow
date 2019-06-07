@@ -13,7 +13,7 @@
         <div class="header__visible">
           <div class="container">
             <div class="header__items">
-              <div class="header__item"><a class="logo" href="javascript:void(0);" title="На главную"><img class="logo__icon" src="./images/logo.png"></a>
+              <div class="header__item header__logo"><a class="logo" href="javascript:void(0);" title="На главную"><img class="logo__icon" src="./images/logo.png"></a>
               </div>
               <div class="header__item header__info">
                 <div class="header__info-top">
@@ -49,6 +49,10 @@
                         </ul>
                       </nav>
                 </div>
+                <div class="header__info-mobile"><a class="logo" href="javascript:void(0);" title="На главную"><img class="logo__icon" src="./images/logo.png"></a>
+                      <address class="address"><a class="address__link" href="tel:+78007756207">8 800 775 6207<span class="address__info">бесплатные звонки по России</span><img class="address__icon" src="./images/icon-phone.png"></a></address>
+                  <div class="header__burger"><span></span><span></span><span></span></div>
+                </div>
               </div>
             </div>
           </div>
@@ -66,6 +70,20 @@
             </div>
           </div>
         </div>
+        <div class="header__menu">
+          <div class="container">
+            <div class="header__menu-item"><a class="header__menu-link header__menu-link--big" href="javascript:void(0);">Каталог</a></div>
+            <div class="header__menu-item"><a class="header__menu-link header__menu-link--big header__menu-link--active" href="javascript:void(0);">Подобрать фильтр</a></div>
+            <div class="header__menu-item"><a class="header__menu-link header__menu-link--big" href="javascript:void(0);">Для коттеджа</a></div>
+            <div class="header__menu-item"><a class="header__menu-link header__menu-link--big" href="javascript:void(0);">В офис</a></div>
+            <div class="header__menu-item"><a class="header__menu-link header__menu-link--big" href="javascript:void(0);">Для производства и ЖКХ</a></div>
+            <div class="header__menu-item"><a class="header__menu-link" href="javascript:void(0);">Технологии WiseWater</a></div>
+            <div class="header__menu-item"><a class="header__menu-link" href="javascript:void(0);">Стать дилером</a></div>
+            <div class="header__menu-item"><a class="header__menu-link" href="javascript:void(0);">Контакты</a></div>
+          </div>
+          <div class="header__menu-logo"><a class="logo" href="javascript:void(0);" title="На главную"><img class="logo__icon" src="./images/logo.png"></a>
+          </div>
+        </div>
       </header>
       <main class="main">
         <section class="hero">
@@ -78,10 +96,7 @@
             </div>
             <div class="hero__info">
               <h1 class="hero__title">Дизайн от WiseWater</h1>
-              <p class="hero__description">
-                 Уважаемые Партнёры! Мы начинаем новый проект - Дизайн от WiseWater.<br>
-                Безупречный и привлекательный для покупателей дизайн магазина позволит отстроиться от конкурентов и получить больше прибыли от бизнеса.
-              </p>
+              <p class="hero__description"> <span>Уважаемые&nbsp;Партнёры! Мы&nbsp;начинаем&nbsp;новый&nbsp;проект&nbsp;- Дизайн&nbsp;от&nbsp;WiseWater.<br></span><span>Безупречный и привлекательный для покупателей дизайн магазина позволит отстроиться от конкурентов и получить больше прибыли от бизнеса.</span></p>
               <div class="banner"><img class="banner-img" src="./images/hero-banner.jpg"></div>
             </div>
           </div>
@@ -190,7 +205,7 @@
                 <li class="footer__contact">
                       <address class="address"><a class="address__link" href="tel:+78007756207">8 800 775 6207<span class="address__info">бесплатные звонки по России</span><img class="address__icon" src="./images/icon-phone.png"></a></address>
                 </li>
-                <li class="footer__contact"><a class="link link--active" href="mailto:mail@wisewater.ru">mail@wisewater.ru</a></li>
+                <li class="footer__contact footer__contact--mail"><a class="link link--active" href="mailto:mail@wisewater.ru">mail@wisewater.ru</a></li>
                 <li class="footer__contact">Пн - Пт, с 8:00 до 18:00 по мск</li>
                 <li class="footer__contact">Москва, Киевское шоссе, Бизнес-парк «Румянцево», корпус А, 1 подъезд, 4 этаж</li>
                 <li class="footer__contact">Санкт-Петербург, Ленинский пр-т, 168. Бизнес-центр «Энергия», офис 613</li>
@@ -200,23 +215,27 @@
               <div class="footer__row">
                 <div class="footer__nav">
                   <div class="footer__nav-title">Информация</div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Технологии WiseWater</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Вода России. Энциклопедия</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Новости</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Сертификаты</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Контакты</a></div>
+                  <div class="footer__nav-links">
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Технологии WiseWater</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Вода России. Энциклопедия</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Новости</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Сертификаты</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Контакты</a></div>
+                  </div>
                 </div>
                 <div class="footer__nav">
                   <div class="footer__nav-title">Каталог</div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Удаление железа и аэрация</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Умягчение</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Комплексные системы</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Системы обратного осмоса</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Универсальные фильтры</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Пурифайеры для воды</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Системы УФ-обеззараживания</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Фильтры под мойку</a></div>
-                  <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Фильтрующие материалы</a></div>
+                  <div class="footer__nav-links">
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Удаление железа и аэрация</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Умягчение</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Комплексные системы</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Системы обратного осмоса</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Универсальные фильтры</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Пурифайеры для воды</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Системы УФ-обеззараживания</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Фильтры под мойку</a></div>
+                    <div class="footer__nav-link"><a class="link" href="javascript:void(0);">Фильтрующие материалы</a></div>
+                  </div>
                 </div>
               </div>
             </li>
