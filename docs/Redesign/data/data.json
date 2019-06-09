@@ -579,7 +579,7 @@
             "name": "Dock Prague",
             "text": "сайт-визитка для мульпликационной студии полного цикла."
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-02.jpg",
             "name": "Starlink: 3D Shipbuilder",
@@ -591,7 +591,7 @@
             "name": "The Furniture Gallery",
             "text": "сайт-визитка для мульпликационной студии полного цикла."
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-04.jpg",
             "name": "Black Rainbow",
@@ -603,7 +603,7 @@
             "name": "Barkli Gallery",
             "text": "сайт-визитка для мульпликационной студии полного цикла."
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-06.jpg",
             "name": "The Dime Trap",
@@ -615,7 +615,7 @@
             "name": "Fox Restaurant Concepts",
             "text": "сайт-визитка для мульпликационной студии полного цикла."
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-08.jpg",
             "name": "Montreal In Motion",
@@ -627,7 +627,7 @@
             "name": "It\"s Centred That",
             "text": "сайт-визитка для мульпликационной студии полного цикла."
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-10.jpg",
             "name": "Disconnect",
@@ -642,7 +642,7 @@
             "name": "page 2",
             "text": "page 2 page 2 page 2 page 2 page 2"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-02.jpg",
             "name": "page 2",
@@ -654,7 +654,7 @@
             "name": "page 2",
             "text": "page 2 page 2 page 2 page 2 page 2"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-04.jpg",
             "name": "page 2",
@@ -666,7 +666,7 @@
             "name": "page 2",
             "text": "page 2 page 2 page 2 page 2 page 2"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-06.jpg",
             "name": "page 2",
@@ -678,7 +678,7 @@
             "name": "page 2",
             "text": "page 2 page 2 page 2 page 2 page 2"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-08.jpg",
             "name": "page 2",
@@ -690,7 +690,7 @@
             "name": "page 2",
             "text": "page 2 page 2 page 2 page 2 page 2"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-10.jpg",
             "name": "page 2",
@@ -705,7 +705,7 @@
             "name": "page 3",
             "text": "page 3 page 3 page 3 page 3 page 3"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-02.jpg",
             "name": "page 3",
@@ -717,7 +717,7 @@
             "name": "page 3",
             "text": "page 3 page 3 page 3 page 3 page 3"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-04.jpg",
             "name": "page 3",
@@ -729,7 +729,7 @@
             "name": "page 3",
             "text": "page 3 page 3 page 3 page 3 page 3"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-06.jpg",
             "name": "page 3",
@@ -741,7 +741,7 @@
             "name": "page 3",
             "text": "page 3 page 3 page 3 page 3 page 3"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-08.jpg",
             "name": "page 3",
@@ -753,7 +753,7 @@
             "name": "page 3",
             "text": "page 3 page 3 page 3 page 3 page 3"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-10.jpg",
             "name": "page 3",
@@ -768,7 +768,7 @@
             "name": "page 4",
             "text": "page 4 page 4 page 4 page 4 page 4"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-02.jpg",
             "name": "page 4",
@@ -780,7 +780,7 @@
             "name": "page 4",
             "text": "page 4 page 4 page 4 page 4 page 4"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-04.jpg",
             "name": "page 4",
@@ -792,7 +792,7 @@
             "name": "page 4",
             "text": "page 4 page 4 page 4 page 4 page 4"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-06.jpg",
             "name": "page 4",
@@ -804,7 +804,7 @@
             "name": "page 4",
             "text": "page 4 page 4 page 4 page 4 page 4"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-08.jpg",
             "name": "page 4",
@@ -816,7 +816,7 @@
             "name": "page 4",
             "text": "page 4 page 4 page 4 page 4 page 4"
           },{
-            "class": "col-12",
+            "class": "col-12 offset-2",
             "href": "",
             "img": "portfolio-10.jpg",
             "name": "page 4",
