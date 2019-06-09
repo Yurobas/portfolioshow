@@ -14,7 +14,7 @@
             <header class="header header--blog">
               <div class="header__top">
                 <div class="container">
-                  <div class="row justify-content-between">
+                  <div class="row">
                     <div class="header__topBox mx-1 px-1">
                       <div class="header__items">
                         <div class="header__item header__item--logo">
@@ -44,28 +44,26 @@
                       <div class="header__bg"></div>
                     </div>
                     <div class="header__feedback js-feedback">
-                      <div class="feedback">
-                        <div class="container">
-                          <div class="row flex-column">
-                            <div class="feedback__title title js-feedback-title col mx-2">Предварительная заявка</div>
-                            <p class="feedback__description text-paragraph js-feedback-description col-12 mx-2">Отправьте свои контакты, и мы свяжемся с вами в ближайшее время</p>
-                            <div class="feedback__form row js-feedback-form col-12 mx-2">
-                              <form class="form">
-                                <div class="form__container">
-                                  <div class="form__label">
-                                    <input class="form__input js-name text-paragraph" name="name"><span class="form__placeholder text-paragraph" data-name="Ваше имя" data-error="Необходимо более 1 символа">Ваше имя</span>
-                                  </div>
-                                  <div class="form__label">
-                                    <input class="form__input js-email text-paragraph" name="email"><span class="form__placeholder text-paragraph" data-name="E-mail" data-error="Некорректный e-mail">E-mail</span>
-                                  </div>
-                                  <div class="form__submit">
-                                    <button class="button button--light button--short" type="submit">Отправить</button>
-                                  </div>
+                      <div class="container">
+                        <div class="feedback row flex-column">
+                          <div class="feedback__title title js-feedback-title col mx-2">Предварительная заявка</div>
+                          <p class="feedback__description text-paragraph js-feedback-description col-12 mx-2">Отправьте свои контакты, и мы свяжемся с вами в ближайшее время</p>
+                          <div class="feedback__form row js-feedback-form col-12 mx-2">
+                            <form class="form">
+                              <div class="form__container">
+                                <div class="form__label">
+                                  <input class="form__input js-name text-paragraph" name="name"><span class="form__placeholder text-paragraph" data-name="Ваше имя" data-error="Необходимо более 1 символа">Ваше имя</span>
                                 </div>
-                              </form>
-                            </div>
-                            <button class="button button--light button--short js-feedback-trigger" style="visibility: hidden;">Отлично!</button>
+                                <div class="form__label">
+                                  <input class="form__input js-email text-paragraph" name="email"><span class="form__placeholder text-paragraph" data-name="E-mail" data-error="Некорректный e-mail">E-mail</span>
+                                </div>
+                                <div class="form__submit">
+                                  <button class="button button--light button--short" type="submit">Отправить</button>
+                                </div>
+                              </div>
+                            </form>
                           </div>
+                          <button class="button button--light button--short js-feedback-trigger offset-2" style="visibility: hidden;">Отлично!</button>
                         </div>
                       </div>
                     </div>
