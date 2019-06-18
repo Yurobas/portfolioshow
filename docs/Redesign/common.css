@@ -5906,7 +5906,7 @@ button {
       padding-top: 10px;
       padding-left: 10.8670%;
       padding-right: 10.8670%;
-      color: transparent;
+      color: black;
       background-color: #2D1940;
       mix-blend-mode: lighten; }
   .headerSection__description {
@@ -6933,7 +6933,7 @@ button {
       font-size: 160px;
       font-weight: 800;
       line-height: 1;
-      color: transparent;
+      color: black;
       background-color: #2D1940;
       mix-blend-mode: lighten; }
   .header__description {
@@ -7128,7 +7128,7 @@ button {
       left: 0;
       right: 0;
       bottom: 0;
-      color: transparent;
+      color: black;
       background-color: #2D1940;
       mix-blend-mode: lighten; }
 
@@ -7162,6 +7162,7 @@ button {
     padding: 0; }
   .contacts__map {
     height: 600px;
+    min-height: 70vh;
     background-color: #fff; }
 
 @media (max-width: 1919px) {
