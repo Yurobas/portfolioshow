@@ -5677,8 +5677,8 @@ button {
   .subscribe .form__input:focus, .subscribe .form__input.value {
     border-color: rgba(45, 25, 64, 0.8); }
     .subscribe .form__input:focus + .form__placeholder, .subscribe .form__input.value + .form__placeholder {
-      -webkit-transform: translateY(-8px);
-              transform: translateY(-8px);
+      -webkit-transform: translateY(-9px);
+              transform: translateY(-9px);
       z-index: 2; }
   .subscribe .form__input.error {
     border-color: #ff0000; }
@@ -5688,8 +5688,8 @@ button {
   padding: 0 10px;
   color: rgba(45, 25, 64, 0.6);
   background-color: #E5E5E5;
-  -webkit-transform: translateY(13px);
-          transform: translateY(13px); }
+  -webkit-transform: translateY(12px);
+          transform: translateY(12px); }
 
 .subscribe .form__submit {
   margin-top: 20px; }
